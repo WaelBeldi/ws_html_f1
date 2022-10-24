@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS HTML</title>
+</head>
+<body>
+    <!--This is a header-->
+    <header>
+        <h2>Workshop HTML</h2>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--This is a main section-->
+    <main>
+        <section id="intro">
+            <h3>Intro Section</h3>
+            <p>Cascading Style Sheets, commonly referred to as CSS, is a simple design language intended to simplify the
+                process of making web pages presentable.</p>
+            <p>CSS determines the look and feel of a web page. With CSS, you can control the color of a text, the style
+                of fonts, the spacing between paragraphs, and how columns are sized and laid out.</p>
+            <div>
+                <p>It also defines what background images or colors are used, the layout designs, and, most importantly,
+                    the variations in display to adapt to different devices and screen sizes.</p>
+            </div>
+            <p>CSS is easy to learn and understand.It also offers powerful control over the presentation of an HTML
+                document. Most commonly, CSS is combined with the markup language HTML.</p>
+        </section>
+
+        <section id="video">
+            <h3>Video Section</h3>
+            <p>Kevin Powell :"Helping you learn how to make the web, and make it look good while you're at it."</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LGQuIIv2RVA?autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="table">
+            <h3>Table Section</h3>
+            <table border="1">
+                <tr>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JS</th>
+                </tr>
+                <tr>
+                    <td>Paragraphs</td>
+                    <td>Selectors</td>
+                    <td>DOM</td>
+                </tr>
+                <tr>
+                    <td>Tables</td>
+                    <td>Styles</td>
+                    <td>Elements</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="image">
+            <h3>Image Section</h3>
+            <p>Where is my image?</p>
+            <img src="https://miro.medium.com/max/800/1*MVaraOOVG-gVUkirc9g2tA.png" alt="image-section">
+        </section>
+    </main>
+
+    <!--This is a footer section-->
+    <footer>
+        <section>
+            <h3>Form Section</h3>
+            <form action="">
+                <div>
+                    <label>Username<span style="color: red">*</span></label>
+                    <input required type="text" name="username" placeholder="Type your username">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="**********">
+                </div>
+                <div>
+                    <label>Choice</label>
+                    <select>
+                        <option value="WebTrack">Web Track</option>
+                        <option value="AITrack">AI Track</option>
+                        <option value="GameTack">Game Track</option>
+                        <option value="DataScienceTrack">Data Science Track</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Checkbox</label>
+                    <input type="checkbox" checked>
+                </div>
+                <div>
+                    <label>Textarea</label>
+                    <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+        <h5>Copyright GoMyCode 2022</h5>
+    </footer>
+</body>
+</html>
